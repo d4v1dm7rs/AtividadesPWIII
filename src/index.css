@@ -1,7 +1,13 @@
 body{
+  background-color: #333;
   padding: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
 }
 
-h2{
-  color: rgba(4, 0, 212, 0.867);
+h1 {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 15px;
 }

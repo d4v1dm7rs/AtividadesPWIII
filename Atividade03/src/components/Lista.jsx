@@ -2,11 +2,11 @@ import Item from './Item'
 import Item02 from './Item02'
 import Item03 from './Item03'
 import Item04 from './Item04'
+import Item05 from './Item05'
 
 function Lista() {
     return(
         <div>
-            <h2>Minha Lista </h2>
             <ul>
                 <Item
                     nome_carro="Challanger Hellcat"
@@ -32,6 +32,9 @@ function Lista() {
                     marca_tenis="Nike"
                     anoLancamento_tenis={1995}
                     valor_tenis="R$ 1,500.00"
+                />
+                <Item05
+                
                 />
             </ul>
         </div>
